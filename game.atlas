@@ -18,16 +18,16 @@ BuildingIcons/Holodeck
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/CABAL
+NationIcons/Process
   rotate: false
-  xy: 4, 220
+  xy: 712, 220
   size: 700, 700
   orig: 700, 700
   offset: 0, 0
   index: -1
 ResourceIcons/Data
   rotate: false
-  xy: 712, 220
+  xy: 4, 220
   size: 700, 700
   orig: 700, 700
   offset: 0, 0
