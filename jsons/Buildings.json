@@ -1,25 +1,41 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
+		"name": "Capital",
 		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": ["Indicates the capital city"]
 	},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
+		"name": "Core Processor",
+        "replaces": "Capital",
+		"uniqueTo": "Process",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 5,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+		"cityHealth": 2,
+		"cost": 1,
+		"uniques": ["Indicates the capital city",
+					"[+5 Science] <when above [0] [Data]>",
+					"Consumes [1] [Data] <when above [0] [Data]>",
+					"[-50]% [Food] [non-[in capital]] <when below [10] [Data]>",
+					"[-50]% [Production] [non-[in capital]] <when below [10] [Data]>",
+					"[-100]% [Culture] [non-[in capital]] <when below [10] [Data]>"]
+	},
+	
+	{
+		"name": "Monument",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"]
 	}
 ]
