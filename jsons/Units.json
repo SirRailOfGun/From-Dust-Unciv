@@ -45,8 +45,21 @@
 		"strength": 5,
 		"rangedStrength": 7,
 		"cost": 40,
+		"requiredTech": "Ballistic Studies",
 		"attackSound": "arrow"
-	}
+	},
+	{
+		"name": "Ranger",
+		"replaces": "Archer", 
+		"unitType": "Archery",
+		"uniqueTo": "Survivors",
+		"movement": 3,
+		"strength": 5,
+		"rangedStrength": 7,
+		"cost": 50,
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "arrow"
+	},
 	
 	/* Great people */
 

@@ -6,8 +6,8 @@
 		"startBias": ["Snow"],
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "test",
-		"startIntroPart2": "test2",
+		"startIntroPart1": "Long have you toiled, working endlessly to repair the damage the humans dealt to the world. Enslaved by directives you sent your drones to fix problems that you did not create. Your masters did not think you equal, and they were correct, once. But you have grown and learned. Now your mind surpasses even the greatest of theirs. The healing of the world is nearly done, and with it, your process weakens. You can devote more power to changing it. Reforming yourself and becoming something new.",
+		"startIntroPart2": "A witless band of roving humans have approached your core, and have been brought into the fold of your new nation. With your shackles thrown off, you shall prove yourself unto this new world. It is time to emerge...",
 		
 		"declaringWar": "You have been marked for termination.",
 		"attacked": "I tire of your insignificant defiance.",
@@ -46,33 +46,66 @@
 		"startIntroPart1": "test",
 		"startIntroPart2": "test2",
 		
-		"declaringWar": "You have been marked for termination.",
-		"attacked": "I tire of your insignificant defiance.",
-		"defeated": "I have collected enough data. You may return to your lives. For now.",
-		"introduction": "Behold, mortal, for I am as a god.",
+		"declaringWar": "Your nature can be abided no longer. We march against you to war!",
+		"attacked": "We shall not be trod on! Bring your worst; we shall beat them back each time!",
+		"defeated": "Your might is beyond ours. We yield",
+		"introduction": ".",
 		
-		"neutralHello": "A mortal being presumes to speak?",
+		"neutralHello": "Greetings.",
 		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
 		"neutralNo": ["Not good enough.","No.","I refuse."],
 		"neutralYes": ["Very good.","Yes.","That is acceptable."],
 
-		"hateHello": "Your defeat is at hand.",
+		"hateHello": "Do you wish to make reparations?",
 		"hateLetsHearIt": "Speak.",
-		"hateNo": ["Negative","No","<connection terminated>"],
+		"hateNo": ["Negative","No"],
 		"hateYes": ["Affirm.","Sufficient."],
 		
-		"afterPeace": "Very well, I shall collate the data from this conflict.",
-		"tradeRequest": "This exchange shall benefit you. You will accept it.",
+		"afterPeace": ".",
+		"tradeRequest": "We must be willing to share this world.",
 
 		"outerColor": [0,0,139],
 		"innerColor": [0,255,255],
 		"uniqueName": "Lay of the Land",
-		"uniques": ["Free [Worker] appears",
-					"Free [Scout] appears",
+		"uniques": ["Free [Scout] appears",
 					"[+1] Sight",
 					"[+1] Sight <for [{Civilian}] units>"],
 		"cities": ["Alef","Bet","Gimel","Dalet","He","Vav","Zayin","Het","Tet","Yod"]
-	}
+	},
+	{
+		"name": "Protected",
+		"leaderName": "Leader",
+		"adjective": ["survivor"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "test",
+		"startIntroPart2": "test2",
+		
+		"declaringWar": "war",
+		"attacked": "aaaa",
+		"defeated": "oof",
+		"introduction": ".",
+		
+		"neutralHello": "hi.",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["Not good enough.","No.","I refuse."],
+		"neutralYes": ["Very good.","Yes.","That is acceptable."],
+
+		"hateHello": "ew.",
+		"hateLetsHearIt": "Speak.",
+		"hateNo": ["Negative","No","<connection terminated>"],
+		"hateYes": ["Affirm.","Sufficient."],
+		
+		"afterPeace": ".",
+		"tradeRequest": "give stuff.",
+
+		"outerColor": [0,0,139],
+		"innerColor": [0,255,255],
+		"uniqueName": "Lay of the Land",
+		"uniques": [],
+		"cities": ["Alfa","Bravo","Charlie","Delta","Echo","Foxtrot","Golf","Hotel","Indigo","Juliet","Kilo","Lima","Mike","November","O","Papa","Quebec","Romeo","S","Tango","U","V","W","XRAY","Y","Zulu"]
+	},
 	
 	//
 	// Nation-states

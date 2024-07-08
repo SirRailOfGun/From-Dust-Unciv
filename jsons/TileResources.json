@@ -107,6 +107,7 @@
 	{
 		"name": "Iron",
 		"resourceType": "Strategic",
+		"revealedBy": "Scrap Repurposing",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh"],
 		"production": 1,
 		"improvement": "Mine",
