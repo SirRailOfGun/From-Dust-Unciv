@@ -4,31 +4,19 @@
         "movementType": "Land"
     },
     {
-        "name": "Sword",
-        "movementType": "Land"
-    },
-    {
-        "name": "Gunpowder",
-        "movementType": "Land"
-    },
-    {
-        "name": "Archery",
-        "movementType": "Land"
-    },
-    {
-        "name": "Ranged Gunpowder",
-        "movementType": "Land"
-    },
-    {
         "name": "Scout",
         "movementType": "Land"
     },
     {
-        "name": "Mounted",
+        "name": "Infantry",
         "movementType": "Land"
     },
     {
-        "name": "Armored",
+        "name": "Ranged",
+        "movementType": "Land"
+    },
+    {
+        "name": "Cavalry",
         "movementType": "Land"
     },
     {
@@ -36,25 +24,26 @@
         "movementType": "Land"
     },
     {
-        "name": "Civilian Water",
+        "name": "Flying",
+        "movementType": "Land",
+        "uniques": ["Can pass through impassable tiles"]
+    },
+    {
+        "name": "Interceptor",
         "movementType": "Water"
     },
     {
-        "name": "Melee Water",
+        "name": "Frigate",
         "movementType": "Water"
     },
     {
-        "name": "Ranged Water",
+        "name": "Civilian Naval",
         "movementType": "Water"
     },
     {
         "name": "Submarine",
         "movementType": "Water",
         "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
-    },
-    {
-        "name": "Aircraft Carrier",
-        "movementType": "Water"
     },
     {
         "name": "Fighter",
@@ -67,18 +56,8 @@
         "uniques": ["Aircraft"]
     },
     {
-        "name": "Atomic Bomber",
-        "movementType": "Air",
-        "uniques": ["Aircraft"]
-    },
-    {
         "name": "Missile",
         "movementType": "Air",
         "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
-    },
-    {
-        "name": "Helicopter",
-        "movementType": "Land",
-        "uniques": ["Can pass through impassable tiles"]
     },
 ]

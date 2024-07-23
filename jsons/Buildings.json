@@ -25,7 +25,6 @@
 		"uniques": ["Indicates the capital city",
 					"[+5 Science] <when above [0] [Data]>",
 					"Consumes [1] [Data] <when above [0] [Data]>",
-					"[-50]% [Food] [non-[in capital]] <when below [10] [Data]>",
 					"[-50]% [Production] [non-[in capital]] <when below [10] [Data]>",
 					"[-100]% [Culture] [non-[in capital]] <when below [10] [Data]>"]
 	},
@@ -39,32 +38,87 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
-		"name": "Granary",
-		"food": 2,
+		"name": "Testament of Survival",
+		"uniqueTo": "Protected",
+		"isNationalWonder": true,
+		"culture": 3,
+		"happiness": 6,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Memorial",
+        "replaces": "Monument",
+		"uniqueTo": "Protected",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured",
+					"[+3 Happiness] <in cities connected to the capital>",
+					"Unbuildable <in cities with a [Testament of Survival]>",
+					"Unavailable <in cities with a [Testament of Survival]>",]
+	},
+	
+	// Era I
+	
+	{
+		"name": "Grain Mill",
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
-			"[+1 Food] from [Bananas] tiles [in this city]",
-			"[+1 Food] from [Wheat] tiles [in this city]"],
+		"uniques": [
+			"[+1 Food] per [1] population [in this city]",
+			"[+1 Food] from [Farm] tiles [in this city]"
+			],
 		"requiredTech": "Crop Rotation"
 	},
+	{
+		"name": "Public Library",
+		"science": 3,
+		"percentStatBonus": {"science": 15},
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [],
+		"requiredTech": "Movable Type"
+	},
 	
-	// game enders
+	// Era II
+	{
+		"name": "Hydroelectric Dam",
+		"science": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Production] from [River] tiles [in this city]",
+			"Only available <in [River] tiles>",
+			"Power Plant"
+			],
+		"requiredTech": "Engineering"
+	},
+	// Era III
 	
 	{
-		"name": "United Nations",
-		//"isWonder": true,
-		//"culture": 1,
-		//"greatPersonPoints": {"Great Merchant": 2},
-		//"requiredTech": "Writing",
-		//"uniques": ["Triggers voting for the Diplomatic Victory", "Hidden when [Diplomatic] Victory is disabled", "Triggers a global alert upon completion"],
-		//"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
+		"name": "Radio Tower",
+		"science": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+2 Science] From each trade route <in cities with a [Power Plant]>",
+			],
+		"requiredTech": "Electromagnetism"
 	},
 	{
-		"name": "Utopia Project",
-		"cost": 1500,
-		"isNationalWonder": true,
-		"uniques": ["Hidden until [5] social policy branches have been completed", "Triggers a global alert upon build start",
-			"Triggers a Cultural Victory upon completion", "Hidden when [Cultural] Victory is disabled", "Cannot be hurried"]
+		"name": "S.E.T.I.",
+		"isWonder": true,
+		"science": 10,
+		"culture": 10,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Science] per [1] population [in your cities] <in cities with a [Radio Tower]> <in cities with a [Power Plant]>",
+			],
+		"requiredTech": "Electromagnetism"
 	}
 ]

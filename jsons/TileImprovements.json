@@ -15,7 +15,7 @@
 		"terrainsCanBeBuiltOn": ["Forest"],
 		"production": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Scrap Repurposing",
+		"techRequired": "Engineering",
 		"uniques": ["Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "L"
 	},
@@ -85,8 +85,8 @@
 		"name": "Fishing Boats",
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"food": 1,
-		//"techRequired": "Sailing",
-		"uniques": [Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"techRequired": "Sailing",
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "F"
 	},
 
@@ -244,7 +244,7 @@
 	{
 		"name": "City ruins",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unpillagable", "Unbuildable", "Will be replaced by automated units", "Provides a random bonus when entered"],
+		"uniques": ["Unpillagable", "Unbuildable", "Provides a random bonus when entered"],
         "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
 	},
 	{

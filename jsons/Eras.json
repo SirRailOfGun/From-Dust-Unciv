@@ -25,7 +25,8 @@
         "embarkDefense": 3,
         "startPercent": 0,
         "citySound": "cityAncient",
-        "iconRGB": [255, 87, 35]
+        "iconRGB": [255, 87, 35],
+		"uniques": ["New [Military] units start with [+15] Experience [in all cities]"]
     },
     {
         "name": "Return Era",
@@ -39,7 +40,8 @@
         "embarkDefense": 3,
         "startPercent": 0,
         "citySound": "cityAncient",
-        "iconRGB": [255, 87, 35]
+        "iconRGB": [255, 87, 35],
+		"uniques": ["New [Military] units start with [+30] Experience [in all cities]"]
     },
     {
         "name": "Future Era",
@@ -53,6 +55,7 @@
         "embarkDefense": 3,
         "startPercent": 0,
         "citySound": "cityAncient",
-        "iconRGB": [255, 87, 35]
+        "iconRGB": [255, 87, 35],
+		"uniques": ["New [Military] units start with [+45] Experience [in all cities]"]
     }
 ]

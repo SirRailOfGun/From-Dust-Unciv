@@ -61,26 +61,26 @@
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Calendar",
-				"row": 2,
+				"name": "Astronomy",
+				"row": 1,
 				"prerequisites": ["Movable Type"],
-				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
+				"uniques": ["Enables embarkation for land units"],
+				"quote": "The stars in the heavens are more predictable than we first thought. By following those that do not move, our maps are more precise than ever."
 			},
 			{
-				"name": "Writing",
+				"name": "Geology",
 				"row": 3,
 				"prerequisites": ["Movable Type"],
-				"uniques": ["Enables Open Borders agreements"],
-				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
+				"quote": "Study the land and your impact on it."
 			},
 			{
 				"name": "Selective Breeding",
 				"row": 4,
 				"prerequisites": ["Crop Rotation"],
-				"quote": "Much fauna survived the fall. They posess some traits that render them unsuitable for domestic use which must be removed."
+				"quote": "Much fauna survived the fall, but now posess some traits that render them unsuitable for domestic use. With care, they can once again bring prosperity."
 			},
 			{
-				"name": "The Wheel",
+				"name": "Engineering",
 				"row": 6,
 				"prerequisites": ["Crop Rotation"],
 				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
@@ -89,14 +89,47 @@
 				"name": "Masonry",
 				"row": 9,
 				"prerequisites": ["Scrap Repurposing"],
-				"quote": "'How happy are those whose walls already rise!' - Virgil"
+				"quote": "Stone is sturdy and plentiful. Used intelligently, buildings can rise taller and sturdier."
 			},
 			{
-				"name": "Bronze Working",
+				"name": "Chemistry",
 				"row": 10,
 				"prerequisites": ["Scrap Repurposing"],
-				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
+				"quote": "Our ancestors were able to bottle fire and life. We shall harness these powers and reclaim their world."
 			}
 		]
 	},
+	{
+		"columnNumber": 3,
+		"era": "Reconstruction Era",
+		"techCost": 55,
+		"buildingCost": 75,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Electromagnetism",
+				"row": 1,
+				"prerequisites": ["Astronomy", "Chemistry", "Engineering"],
+				"quote": "The unmoving stars sing beyond our ears. Our ancestors would listen to learn of events elsewhere."
+			}
+		]
+	},
+	
+	/*
+		{
+		"columnNumber": 5,
+		"era": "Return Era",
+		"techCost": 55,
+		"buildingCost": 75,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Global Navigation",
+				"row": 1,
+				"prerequisites": ["Movable Type", "Radio Frequencies"],
+				"uniques": ["Reveals the entire map"],
+				"quote": "The unmoving stars sing beyond our ears. Our ancestors would listen to learn of events elsewhere."
+			}
+		]
+	},*/
 ]
